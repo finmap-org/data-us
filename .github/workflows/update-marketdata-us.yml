@@ -1,0 +1,354 @@
+name: 'Update Market Data: US'
+
+on:
+  # Pre-Market Trading:  9:00 AM - 2:30 PM UTC
+  # Regular Session:     2:30 PM - 9:00 PM UTC
+  # After-Hours Trading: 9:00 PM - 1:00 AM UTC (the following day)
+  schedule:
+   - cron: '55 9-23 * * 1-5'
+   - cron: '55 0,1 * * 2-6'
+  workflow_dispatch:
+    inputs:
+      tsv_header:
+        description: 'Comma separated keys to use as TSV header. Supported keys are: symbol, name, lastsale, netchange, pctchange, volume, marketCap, country, ipoyear, industry, sector, url'
+        required: true
+        type: string
+        default: 'symbol,name,lastsale,netchange,pctchange,volume,marketCap,country,ipoyear,industry,sector'
+      start_date:
+        description: 'Start date'
+        required: true
+        type: string
+        default: '2024-12-09'
+      end_date:
+        description: 'End date'
+        required: true
+        type: string
+        default: '2025-02-07'
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    env:
+      API_URL: https://api.nasdaq.com/api/screener
+      USER_AGENT: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0'
+      CI_COMMIT_AUTHOR: github-actions[bot]
+      CI_COMMIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
+      CI_COMMIT_MESSAGE: 'Update Market Data: US'
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+        
+    - name: Read inputs
+      run: |
+        if [ -z "${{ inputs.start_date }}" ]; then
+          if [ "${{ github.event.schedule }}" == "55 9-23 * * 1-5" ]; then
+            START_DATE=$(date --utc +%Y/%m/%d)
+            END_DATE=$(date --utc +%Y/%m/%d)
+          elif [ "${{ github.event.schedule }}" == "55 0,1 * * 2-6" ]; then
+            START_DATE=$(date --utc -d 'yesterday' +%Y/%m/%d)
+            END_DATE=$(date --utc -d 'yesterday' +%Y/%m/%d)
+          else
+            # Default dates
+            START_DATE=$(date --utc +%Y/%m/%d)
+            END_DATE=$(date --utc +%Y/%m/%d)
+          fi
+        else
+          START_DATE="${{ inputs.start_date }}"
+          END_DATE="${{ inputs.end_date }}"
+        fi
+        echo "START_DATE=$START_DATE" >> $GITHUB_ENV
+        echo "END_DATE=$END_DATE" >> $GITHUB_ENV
+
+    - name: Get data
+      if: ${{ github.event_name == 'schedule' }}
+      run: |
+        function get_data() {
+          exchange="$1"
+          response_code=$(curl --request GET \
+            --url "${{ env.API_URL }}/stocks?tableonly=true&limit=25&offset=0&download=true&exchange=${exchange}" \
+            --user-agent "${{ env.USER_AGENT }}" \
+            --silent \
+            --write-out "%{http_code}" \
+            --output "${exchange}-tmp.json")
+          if [ "${response_code}" -eq 200 ]; then
+            jq '.data.rows' ${exchange}-tmp.json > ${exchange}.json
+            rm ${exchange}-tmp.json
+            sed -i "s/\"symbol\": \"/\"symbol\": \"$exchange\:/g" ${exchange}.json
+            sed -i "s/\"marketCap\": \"\"/\"marketCap\": \"0\"/g" ${exchange}.json
+            # jq -r --arg header "${{ inputs.tsv_header }}" '.[] | [($header | split(","))[] as $h | .[$h]] | @tsv' ${exchange}.json > ${exchange}.tsv
+          else
+            echo "Request failed with response code: ${response_code}"
+            exit 1
+          fi
+        }
+        ex_list=("nasdaq" "nyse" "amex")
+        for ex in "${ex_list[@]}"; do
+          get_data "${ex}"
+        done
+    
+    # - name: Concat TSVs
+    #   run: |
+    #     (cat nasdaq.tsv; echo; cat nyse.tsv; echo; cat amex.tsv; echo) > us-all.tsv
+    
+    - name: Concat JSONs
+      if: ${{ github.event_name == 'schedule' }}
+      run: |
+        jq -s '[.[][]]' nasdaq.json nyse.json amex.json > us-all.json
+        mkdir -p "$GITHUB_WORKSPACE/data/$(date --utc +"%Y/%m/%d")/raw"
+        mv *.json "$GITHUB_WORKSPACE/data/$(date --utc +"%Y/%m/%d")/raw/"
+
+    - name: Get ETFs
+      if: ${{ github.event_name == 'schedule' }}
+      run: |
+        response_code=$(curl --request GET \
+          --url "${{ env.API_URL }}/etf?tableonly=true&limit=25&offset=0&download=true" \
+          --user-agent "${{ env.USER_AGENT }}" \
+          --silent \
+          --write-out "%{http_code}" \
+          --output "us-etf.json")
+        if [ "${response_code}" -ne 200 ]; then
+          echo "Request failed with response code: ${response_code}"
+          exit 1
+        fi
+        if [ "$(jq '.data.data.rows | length' us-etf.json)" -eq "0" ]; then
+          echo "Empty datafile"
+          exit 1
+        fi
+        mv us-etf.json "$GITHUB_WORKSPACE/data/$(date --utc +"%Y/%m/%d")/raw/"
+
+    - name: Generate datafiles
+      run: |
+        function datafile_generator() {
+          data_folder="$1"
+          file="$2"
+          cd "${data_folder}"
+          jq --compact-output '{
+            "securities": {
+              "columns": [
+              "exchange",
+              "country",
+              "type",
+              "sector",
+              "industry",
+              "currencyId",
+              "ticker",
+              "nameEng",
+              "nameEngShort",
+              "nameOriginal",
+              "nameOriginalShort",
+              "priceOpen",
+              "priceLastSale",
+              "priceChangePct",
+              "volume",
+              "value",
+              "numTrades",
+              "marketCap",
+              "listedFrom",
+              "listedTill",
+              "wikiPageIdEng",
+              "wikiPageIdOriginal",
+              "nestedItemsCount"],
+            "data": [
+              .[] | [
+              (.symbol | split(":") | .[0]),
+              .country // "",
+              "stock",
+              (if .sector == "" then "Miscellaneous" else .sector end),
+              (if .industry == "" then "Miscellaneous" else .industry end),
+              "USD",
+              (.symbol | split(":") | .[1]),
+              .name,
+              "",
+              "",
+              "",
+              (if .lastsale == "" then 0
+                else if .netchange == "" then (.lastsale | gsub("\\$"; "") | tonumber)
+                else ((.lastsale | gsub("\\$"; "") | tonumber) - (.netchange | gsub("\\$"; "") | tonumber))
+                end
+              end),
+              (if .lastsale == "" then 0 else (.lastsale | gsub("\\$"; "") | tonumber) end),
+              (if .pctchange == "" then 0 else (.pctchange | gsub("%"; "") | tonumber) end),
+              (.volume | tonumber),
+              0,
+              0,
+              (.marketCap | tonumber),
+              .ipoyear // "",
+              "",
+              "",
+              "",
+              0
+              ]
+            ]
+          }
+          }' "raw/$file" > "tmp-$file"
+          
+          cp "tmp-$file" "$file"
+          
+          if [ -f "raw/us-etf.json" ]; then
+            jq --compact-output --slurp '
+              .[0].securities.data += (
+                .[1].data.data.rows | map([
+                "nasdaq",
+                "United States",
+                "etf",
+                "ETFS",
+                "ETFS",
+                "USD",
+                .symbol,
+                .companyName // "",
+                "",
+                "",
+                "",
+                (if .lastSalePrice == "$" then 0
+                  else if .netChange == "" then (.lastSalePrice | gsub("\\$"; "") | tonumber)
+                  else ((.lastSalePrice | gsub("\\$"; "") | tonumber) - (.netChange | gsub("\\$"; "") | tonumber))
+                  end
+                end),
+                (if .lastSalePrice == "" or .lastSalePrice == "$" then 0 else (.lastSalePrice | gsub("\\$"; "") | tonumber) end),
+                (if .percentageChange == "" then 0 else (.percentageChange | gsub("%"; "") | tonumber) end),
+                0,
+                0,
+                0,
+                0,
+                "",
+                "",
+                "",
+                "",
+                0
+              ])
+            )' "tmp-$file" "raw/us-etf.json" | jq .[0] > "$file"
+          fi
+          
+          cp "$file" "tmp-$file"
+          
+          # do math
+          jq --compact-output '{
+            securities: {
+              columns: .securities.columns,
+              data: (
+                .securities.data as $original 
+                | [
+                  .securities.data[] 
+                  | {
+                    type: .[2],
+                    sector: .[3],
+                    priceChangePct: .[13],
+                    volume: .[14],
+                    value: .[15],
+                    numTrades: .[16],
+                    marketCap: .[17],
+                    marketCapPrev: (.[17] / (1 + .[13] / 100))
+                  }
+                ] as $transformed
+                | ([$transformed[]] 
+                  | {
+                    marketCap: (map(.marketCap) | add),
+                    marketCapPrev: (map(.marketCapPrev) | add),
+                    volume: (map(.volume) | add),
+                    value: (map(.value) | add),
+                    numTrades: (map(.numTrades) | add),
+                    nestedItemsCount: (map(select(.type != "sector")) | length)
+                  } as $totals
+                  | [[
+                    "",
+                    "",
+                    "sector",
+                    "",
+                    "",
+                    "USD",
+                    "Market",
+                    "Market",
+                    "",
+                    "",
+                    "",
+                    0,
+                    0,
+                    (if $totals.marketCapPrev == 0 then null 
+                     else (100 * ($totals.marketCap - $totals.marketCapPrev) / $totals.marketCapPrev) 
+                     end),
+                    $totals.volume,
+                    $totals.value,
+                    $totals.numTrades,
+                    $totals.marketCap,
+                    "",
+                    "",
+                    "",
+                    "",
+                    $totals.nestedItemsCount
+                  ]]
+                ) as $marketTotal
+                | ($transformed 
+                  | group_by(.sector) 
+                  | map([
+                    "",
+                    "",
+                    "sector",
+                    "Market",
+                    "",
+                    "USD",
+                    .[0].sector,
+                    .[0].sector,
+                    "",
+                    "",
+                    "",
+                    0,
+                    0,
+                    (if (map(.marketCapPrev)|add) == 0 then null 
+                     else (100 * ((map(.marketCap)|add) - (map(.marketCapPrev)|add)) / (map(.marketCapPrev)|add)) 
+                     end),
+                    (map(.volume)|add),
+                    (map(.value)|add),
+                    (map(.numTrades)|add),
+                    (map(.marketCap)|add),
+                    "",
+                    "",
+                    "",
+                    "",
+                    (map(.marketCap)|length)
+                  ]) as $sectorTotals
+                  | $marketTotal + $sectorTotals + $original
+                )
+              )
+            }
+          }' "tmp-$file" > "$file"
+          
+          rm "tmp-$file"
+        }
+
+        start_date="${{ env.START_DATE }}"
+        end_date="${{ env.END_DATE }}"
+        start_seconds=$(date --utc -d "$start_date" +%s)
+        end_seconds=$(date --utc -d "$end_date" +%s)
+        current_seconds=$start_seconds
+        while [ $current_seconds -le $end_seconds ]; do
+          current_date=$(date --utc -d "@$current_seconds" +"%Y/%m/%d")
+          current_seconds=$((current_seconds + 86400))
+          # Check if the current date is a weekend day
+          if [ $(date --utc -d "$current_date" +%u) -ge 6 ]; then
+            continue
+          fi
+          data_folder=$GITHUB_WORKSPACE/data/$current_date
+          mkdir -p "${data_folder}/raw/"
+          files=("nasdaq.json" "nyse.json" "amex.json" "us-all.json")
+          for file in "${files[@]}"; do
+            if [[ ! -e "${data_folder}/raw/$file" ]]; then
+              continue
+            fi
+            datafile_generator "$data_folder" "$file"
+          done
+        done
+    
+    - name: Commit and push
+      run: |
+        git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
+        git config --global user.email "${{ env.CI_COMMIT_AUTHOR_EMAIL }}"
+        # git add --all
+        # Do not commit empty files
+        # find . -type f -not -empty -exec git add {} +
+        # Do not commit files with size less than 5 bytes
+        find . -type f -size +5c -exec git add {} +
+        git commit -m "${{ env.CI_COMMIT_MESSAGE }}"
+        git push origin main
