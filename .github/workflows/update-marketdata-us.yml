@@ -97,8 +97,8 @@ jobs:
       if: ${{ github.event_name == 'schedule' }}
       run: |
         jq -s '[.[][]]' nasdaq.json nyse.json amex.json > us-all.json
-        mkdir -p "$GITHUB_WORKSPACE/data/$(date --utc +"%Y/%m/%d")/raw"
-        mv *.json "$GITHUB_WORKSPACE/data/$(date --utc +"%Y/%m/%d")/raw/"
+        mkdir -p "$GITHUB_WORKSPACE/marketdata/$(date --utc +"%Y/%m/%d")/raw"
+        mv *.json "$GITHUB_WORKSPACE/marketdata/$(date --utc +"%Y/%m/%d")/raw/"
 
     - name: Get ETFs
       if: ${{ github.event_name == 'schedule' }}
@@ -117,7 +117,7 @@ jobs:
           echo "Empty datafile"
           exit 1
         fi
-        mv us-etf.json "$GITHUB_WORKSPACE/data/$(date --utc +"%Y/%m/%d")/raw/"
+        mv us-etf.json "$GITHUB_WORKSPACE/marketdata/$(date --utc +"%Y/%m/%d")/raw/"
 
     - name: Generate datafiles
       run: |
@@ -330,7 +330,7 @@ jobs:
           if [ $(date --utc -d "$current_date" +%u) -ge 6 ]; then
             continue
           fi
-          data_folder=$GITHUB_WORKSPACE/data/$current_date
+          data_folder=$GITHUB_WORKSPACE/marketdata/$current_date
           mkdir -p "${data_folder}/raw/"
           files=("nasdaq.json" "nyse.json" "amex.json" "us-all.json")
           for file in "${files[@]}"; do
