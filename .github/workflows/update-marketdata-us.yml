@@ -322,10 +322,8 @@ jobs:
           rm "tmp-$file"
         }
 
-        start_date="${{ env.START_DATE }}"
-        end_date="${{ env.END_DATE }}"
-        start_seconds=$(date --utc -d "$start_date" +%s)
-        end_seconds=$(date --utc -d "$end_date" +%s)
+        start_seconds=$(date --utc -d "$START_DATE" +%s)
+        end_seconds=$(date --utc -d "$END_DATE" +%s)
         current_seconds=$start_seconds
         while [ $current_seconds -le $end_seconds ]; do
           current_date=$(date --utc -d "@$current_seconds" +"%Y/%m/%d")
