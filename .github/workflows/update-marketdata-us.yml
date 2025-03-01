@@ -69,6 +69,8 @@ jobs:
         sparse-checkout: |
           marketdata/${{ env.START_DATE }}
           marketdata/${{ env.START_DATE }}/raw
+          sectors
+          history
         sparse-checkout-cone-mode: true
     
     - name: Get data
@@ -342,7 +344,13 @@ jobs:
             datafile_generator "$data_folder" "$file"
           done
         done
-    
+        
+    - name: Update Histogram Datafiles
+      uses: finmap-org/actions/update-histogram-data@main
+      with:
+        start_date: ${{ env.START_DATE }}
+        end_date: ${{ env.END_DATE }}
+
     - name: Commit and push
       run: |
         git config --global user.name "${{ env.CI_COMMIT_AUTHOR }}"
