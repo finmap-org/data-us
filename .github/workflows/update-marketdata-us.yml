@@ -9,11 +9,6 @@ on:
    - cron: '55 0,1 * * 2-6'
   workflow_dispatch:
     inputs:
-      tsv_header:
-        description: 'Comma separated keys to use as TSV header. Supported keys are: symbol, name, lastsale, netchange, pctchange, volume, marketCap, country, ipoyear, industry, sector, url'
-        required: true
-        type: string
-        default: 'symbol,name,lastsale,netchange,pctchange,volume,marketCap,country,ipoyear,industry,sector'
       start_date:
         description: 'Start date'
         required: true
@@ -38,9 +33,6 @@ jobs:
       CI_COMMIT_AUTHOR_EMAIL: 41898282+github-actions[bot]@users.noreply.github.com
       CI_COMMIT_MESSAGE: 'Update Market Data: US'
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-        
     - name: Read inputs
       run: |
         if [ -z "${{ inputs.start_date }}" ]; then
@@ -62,6 +54,23 @@ jobs:
         echo "START_DATE=$START_DATE" >> $GITHUB_ENV
         echo "END_DATE=$END_DATE" >> $GITHUB_ENV
 
+    - name: Checkout
+      if: ${{ github.event_name == 'workflow_dispatch' }}
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 1
+    
+    - name: Sparse Checkout
+      if: ${{ github.event_name == 'schedule' }}
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 1
+        filter: blob:none
+        sparse-checkout: |
+          marketdata/${{ env.START_DATE }}
+          marketdata/${{ env.START_DATE }}/raw
+        sparse-checkout-cone-mode: true
+    
     - name: Get data
       if: ${{ github.event_name == 'schedule' }}
       run: |
@@ -78,7 +87,6 @@ jobs:
             rm ${exchange}-tmp.json
             sed -i "s/\"symbol\": \"/\"symbol\": \"$exchange\:/g" ${exchange}.json
             sed -i "s/\"marketCap\": \"\"/\"marketCap\": \"0\"/g" ${exchange}.json
-            # jq -r --arg header "${{ inputs.tsv_header }}" '.[] | [($header | split(","))[] as $h | .[$h]] | @tsv' ${exchange}.json > ${exchange}.tsv
           else
             echo "Request failed with response code: ${response_code}"
             exit 1
@@ -88,10 +96,6 @@ jobs:
         for ex in "${ex_list[@]}"; do
           get_data "${ex}"
         done
-    
-    # - name: Concat TSVs
-    #   run: |
-    #     (cat nasdaq.tsv; echo; cat nyse.tsv; echo; cat amex.tsv; echo) > us-all.tsv
     
     - name: Concat JSONs
       if: ${{ github.event_name == 'schedule' }}
