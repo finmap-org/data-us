@@ -348,6 +348,7 @@ jobs:
     - name: Update Histogram Datafiles
       uses: finmap-org/actions/update-histogram-data@main
       with:
+        workdir: ${{ github.workspace }}
         start_date: ${{ env.START_DATE }}
         end_date: ${{ env.END_DATE }}
 
