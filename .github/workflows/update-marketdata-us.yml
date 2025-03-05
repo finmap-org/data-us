@@ -36,17 +36,8 @@ jobs:
     - name: Read inputs
       run: |
         if [ -z "${{ inputs.start_date }}" ]; then
-          if [ "${{ github.event.schedule }}" == "55 9-23 * * 1-5" ]; then
-            START_DATE=$(date --utc +%Y/%m/%d)
-            END_DATE=$(date --utc +%Y/%m/%d)
-          elif [ "${{ github.event.schedule }}" == "55 0,1 * * 2-6" ]; then
-            START_DATE=$(date --utc -d 'yesterday' +%Y/%m/%d)
-            END_DATE=$(date --utc -d 'yesterday' +%Y/%m/%d)
-          else
-            # Default dates
-            START_DATE=$(date --utc +%Y/%m/%d)
-            END_DATE=$(date --utc +%Y/%m/%d)
-          fi
+          START_DATE=$(TZ="US/Eastern" date +%Y/%m/%d)
+          END_DATE=$(TZ="US/Eastern" date +%Y/%m/%d)
         else
           START_DATE="${{ inputs.start_date }}"
           END_DATE="${{ inputs.end_date }}"
@@ -103,8 +94,8 @@ jobs:
       if: ${{ github.event_name == 'schedule' }}
       run: |
         jq -s '[.[][]]' nasdaq.json nyse.json amex.json > us-all.json
-        mkdir -p "$GITHUB_WORKSPACE/marketdata/$(date --utc +"%Y/%m/%d")/raw"
-        mv *.json "$GITHUB_WORKSPACE/marketdata/$(date --utc +"%Y/%m/%d")/raw/"
+        mkdir -p "$GITHUB_WORKSPACE/marketdata/$(TZ="US/Eastern" date +"%Y/%m/%d")/raw"
+        mv *.json "$GITHUB_WORKSPACE/marketdata/$(TZ="US/Eastern" date +"%Y/%m/%d")/raw/"
 
     - name: Get ETFs
       if: ${{ github.event_name == 'schedule' }}
@@ -123,7 +114,7 @@ jobs:
           echo "Empty datafile"
           exit 1
         fi
-        mv us-etf.json "$GITHUB_WORKSPACE/marketdata/$(date --utc +"%Y/%m/%d")/raw/"
+        mv us-etf.json "$GITHUB_WORKSPACE/marketdata/$(TZ="US/Eastern" date +"%Y/%m/%d")/raw/"
 
     - name: Generate datafiles
       run: |
@@ -324,14 +315,14 @@ jobs:
           rm "tmp-$file"
         }
 
-        start_seconds=$(date --utc -d "$START_DATE" +%s)
-        end_seconds=$(date --utc -d "$END_DATE" +%s)
+        start_seconds=$(TZ="US/Eastern" date -d "$START_DATE" +%s)
+        end_seconds=$(TZ="US/Eastern" date -d "$END_DATE" +%s)
         current_seconds=$start_seconds
         while [ $current_seconds -le $end_seconds ]; do
-          current_date=$(date --utc -d "@$current_seconds" +"%Y/%m/%d")
+          current_date=$(TZ="US/Eastern" date -d "@$current_seconds" +"%Y/%m/%d")
           current_seconds=$((current_seconds + 86400))
           # Check if the current date is a weekend day
-          if [ $(date --utc -d "$current_date" +%u) -ge 6 ]; then
+          if [ $(TZ="US/Eastern" date -d "$current_date" +%u) -ge 6 ]; then
             continue
           fi
           data_folder=$GITHUB_WORKSPACE/marketdata/$current_date
