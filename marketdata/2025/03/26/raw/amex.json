@@ -1681,7 +1681,7 @@
   },
   {
     "symbol": "amex:GRFX",
-    "name": "Graphex Group Limited American Depositary Shares each American Depositary Share representing 20 Ordinary Shares",
+    "name": "Graphex Group Limited American Depositary Shares each representing twenty (20) Ordinary Shares",
     "lastsale": "$0.28",
     "netchange": "-0.0279",
     "pctchange": "-9.061%",
@@ -2157,12 +2157,12 @@
   },
   {
     "symbol": "amex:LGPS",
-    "name": "LogProstyle Inc.",
+    "name": "LogProstyle Inc. Common Shares",
     "lastsale": "$3.70",
     "netchange": "3.70",
     "pctchange": "",
     "volume": "1492760",
-    "marketCap": "0.00",
+    "marketCap": "89362807.00",
     "country": "",
     "ipoyear": "2025",
     "industry": "Homebuilding",
