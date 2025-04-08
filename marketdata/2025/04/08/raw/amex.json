@@ -104,7 +104,7 @@
     "netchange": "-0.16",
     "pctchange": "-5.333%",
     "volume": "23951",
-    "marketCap": "18232800.00",
+    "marketCap": "18318000.00",
     "country": "United States",
     "ipoyear": "1988",
     "industry": "Medical Specialities",
@@ -1314,20 +1314,6 @@
     "industry": "Life Insurance",
     "sector": "Finance",
     "url": "/market-activity/stocks/foxo"
-  },
-  {
-    "symbol": "amex:FRD",
-    "name": "Friedman Industries Inc. Common Stock",
-    "lastsale": "$13.97",
-    "netchange": "0.14",
-    "pctchange": "1.012%",
-    "volume": "37010",
-    "marketCap": "97378388.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Steel/Iron Ore",
-    "sector": "Industrials",
-    "url": "/market-activity/stocks/frd"
   },
   {
     "symbol": "amex:FSI",
@@ -2750,7 +2736,7 @@
     "netchange": "0.0179",
     "pctchange": "5.406%",
     "volume": "5091847",
-    "marketCap": "59347646.00",
+    "marketCap": "30982903.00",
     "country": "United States",
     "ipoyear": "2007",
     "industry": "Electric Utilities: Central",
