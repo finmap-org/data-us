@@ -350,20 +350,6 @@
     "url": "/market-activity/stocks/bdl"
   },
   {
-    "symbol": "amex:BEEP",
-    "name": "Mobile Infrastructure Corporation Common Stock",
-    "lastsale": "$3.91",
-    "netchange": "-0.06",
-    "pctchange": "-1.511%",
-    "volume": "25521",
-    "marketCap": "165784000.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/beep"
-  },
-  {
     "symbol": "amex:BGI",
     "name": "Birks Group Inc. Common Stock",
     "lastsale": "$0.90",
