@@ -3304,20 +3304,6 @@
     "url": "/market-activity/stocks/seb"
   },
   {
-    "symbol": "amex:SEG",
-    "name": "Seaport Entertainment Group Inc. Common Stock",
-    "lastsale": "$17.93",
-    "netchange": "-0.22",
-    "pctchange": "-1.212%",
-    "volume": "1112180",
-    "marketCap": "227614734.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "Services-Misc. Amusement & Recreation",
-    "sector": "Consumer Discretionary",
-    "url": "/market-activity/stocks/seg"
-  },
-  {
     "symbol": "amex:SENS",
     "name": "Senseonics Holdings Inc. Common Stock",
     "lastsale": "$0.4941",
