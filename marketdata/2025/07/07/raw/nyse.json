@@ -8624,20 +8624,6 @@
     "url": "/market-activity/stocks/cop"
   },
   {
-    "symbol": "nyse:COPL",
-    "name": "Copley Acquisition Corp Ordinary Shares",
-    "lastsale": "$10.05",
-    "netchange": "-0.02",
-    "pctchange": "-0.199%",
-    "volume": "102",
-    "marketCap": "0.00",
-    "country": "",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/copl"
-  },
-  {
     "symbol": "nyse:COR",
     "name": "Cencora Inc. Common Stock",
     "lastsale": "$296.23",
@@ -15092,20 +15078,6 @@
     "url": "/market-activity/stocks/ggt"
   },
   {
-    "symbol": "nyse:GGT^E",
-    "name": "Gabelli Multi-Media Trust Inc. (The) 5.125% Series E Cumulative Preferred Stock",
-    "lastsale": "$22.28",
-    "netchange": "0.02",
-    "pctchange": "0.09%",
-    "volume": "1127",
-    "marketCap": "0",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ggt^e"
-  },
-  {
     "symbol": "nyse:GGT^G",
     "name": "Gabelli Multi-Media Trust Inc. (The) 5.125% Series G Cumulative Preferred Shares",
     "lastsale": "$22.69",
@@ -15272,48 +15244,6 @@
     "industry": "Packaged Foods",
     "sector": "Consumer Staples",
     "url": "/market-activity/stocks/gis"
-  },
-  {
-    "symbol": "nyse:GJH",
-    "name": "Synthetic Fixed-Income Securities Inc 6.375% (STRATS) Cl A-1",
-    "lastsale": "$9.34",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "333",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/gjh"
-  },
-  {
-    "symbol": "nyse:GJO",
-    "name": "Synthetic Fixed-Income Securities Inc. on behalf of STRATS(SM) Trust for Wal-Mart Stores Inc. Securities Series 2004-5",
-    "lastsale": "$24.93",
-    "netchange": "0.1791",
-    "pctchange": "0.724%",
-    "volume": "100",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/gjo"
-  },
-  {
-    "symbol": "nyse:GJP",
-    "name": "Synthetic Fixed-Income Securities Inc. on behalf of STRATS (SM) Trust for Dominion Resources Inc. Securities Series 2005-6 Floating Rate Structured Repackaged Asset-Backed Trust Securities (STRATS) Certificates",
-    "lastsale": "$24.83",
-    "netchange": "0.28",
-    "pctchange": "1.141%",
-    "volume": "138",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/gjp"
   },
   {
     "symbol": "nyse:GJS",
@@ -28490,20 +28420,6 @@
     "url": "/market-activity/stocks/pyn"
   },
   {
-    "symbol": "nyse:PYT",
-    "name": "PPlus Tr GSC-2 Tr Ctf Fltg Rate",
-    "lastsale": "$22.9645",
-    "netchange": "0.3645",
-    "pctchange": "1.613%",
-    "volume": "100",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/pyt"
-  },
-  {
     "symbol": "nyse:PZC",
     "name": "PIMCO California Municipal Income Fund III Common Shares of Beneficial Interest",
     "lastsale": "$6.27",
@@ -32642,7 +32558,7 @@
     "volume": "497761",
     "marketCap": "71617455.00",
     "country": "United States",
-    "ipoyear": "2020",
+    "ipoyear": "1992",
     "industry": "Industrial Machinery/Components",
     "sector": "Miscellaneous",
     "url": "/market-activity/stocks/stem"

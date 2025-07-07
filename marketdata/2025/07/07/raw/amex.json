@@ -2058,20 +2058,6 @@
     "url": "/market-activity/stocks/lctx"
   },
   {
-    "symbol": "amex:LEGT",
-    "name": "Legato Merger Corp. III Ordinary Shares",
-    "lastsale": "$10.67",
-    "netchange": "-0.05",
-    "pctchange": "-0.466%",
-    "volume": "20355",
-    "marketCap": "0.00",
-    "country": "",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/legt"
-  },
-  {
     "symbol": "amex:LEU",
     "name": "Centrus Energy Corp. Class A Common Stock",
     "lastsale": "$175.65",
@@ -2730,20 +2716,6 @@
     "url": "/market-activity/stocks/ophc"
   },
   {
-    "symbol": "amex:OPP^C",
-    "name": "RiverNorth/DoubleLine Strategic Opportunity Fund Inc. 6.00% Series C Term Preferred Stock (Liquidation Preference $10.00 per share)",
-    "lastsale": "$10.12",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "107",
-    "marketCap": "0",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/opp^c"
-  },
-  {
     "symbol": "amex:OPTT",
     "name": "Ocean Power Technologies Inc. Common Stock",
     "lastsale": "$0.5075",
@@ -3036,20 +3008,6 @@
     "industry": "Real Estate Investment Trusts",
     "sector": "Real Estate",
     "url": "/market-activity/stocks/pw"
-  },
-  {
-    "symbol": "amex:PW^A",
-    "name": "Power REIT 7.75% Series A Cumulative Perpetual Preferred Stock",
-    "lastsale": "$4.15",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "2",
-    "marketCap": "0",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/pw^a"
   },
   {
     "symbol": "amex:PZG",

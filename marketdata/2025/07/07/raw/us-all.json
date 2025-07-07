@@ -28,20 +28,6 @@
     "url": "/market-activity/stocks/aacbr"
   },
   {
-    "symbol": "nasdaq:AACBU",
-    "name": "Artius II Acquisition Inc. Units",
-    "lastsale": "$10.40",
-    "netchange": "0.02",
-    "pctchange": "0.193%",
-    "volume": "368",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/aacbu"
-  },
-  {
     "symbol": "nasdaq:AACG",
     "name": "ATA Creativity Global American Depositary Shares",
     "lastsale": "$0.8393",
@@ -1358,20 +1344,6 @@
     "url": "/market-activity/stocks/afcg"
   },
   {
-    "symbol": "nasdaq:AFJKR",
-    "name": "Aimei Health Technology Co. Ltd Right",
-    "lastsale": "$0.27",
-    "netchange": "0.03",
-    "pctchange": "12.50%",
-    "volume": "10459",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/afjkr"
-  },
-  {
     "symbol": "nasdaq:AFRI",
     "name": "Forafric Global PLC Ordinary Shares",
     "lastsale": "$7.83",
@@ -1384,20 +1356,6 @@
     "industry": "Packaged Foods",
     "sector": "Consumer Staples",
     "url": "/market-activity/stocks/afri"
-  },
-  {
-    "symbol": "nasdaq:AFRIW",
-    "name": "Forafric Global PLC Warrants",
-    "lastsale": "$0.438",
-    "netchange": "0.008",
-    "pctchange": "1.86%",
-    "volume": "200",
-    "marketCap": "11782897.00",
-    "country": "Gibraltar",
-    "ipoyear": "",
-    "industry": "Packaged Foods",
-    "sector": "Consumer Staples",
-    "url": "/market-activity/stocks/afriw"
   },
   {
     "symbol": "nasdaq:AFRM",
@@ -1736,20 +1694,6 @@
     "url": "/market-activity/stocks/aimd"
   },
   {
-    "symbol": "nasdaq:AIMDW",
-    "name": "Ainos Inc. Warrants",
-    "lastsale": "$0.12",
-    "netchange": "-0.01",
-    "pctchange": "-7.692%",
-    "volume": "700",
-    "marketCap": "503045.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/aimdw"
-  },
-  {
     "symbol": "nasdaq:AIOT",
     "name": "PowerFleet Inc. Common Stock",
     "lastsale": "$4.34",
@@ -2084,20 +2028,6 @@
     "industry": "Blank Checks",
     "sector": "Finance",
     "url": "/market-activity/stocks/alcy"
-  },
-  {
-    "symbol": "nasdaq:ALCYW",
-    "name": "Alchemy Investments Acquisition Corp 1 Warrants",
-    "lastsale": "$0.1058",
-    "netchange": "-0.0071",
-    "pctchange": "-6.289%",
-    "volume": "25000",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2023",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/alcyw"
   },
   {
     "symbol": "nasdaq:ALDF",
@@ -2490,20 +2420,6 @@
     "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/alvo"
-  },
-  {
-    "symbol": "nasdaq:ALVOW",
-    "name": "Alvotech Warrant",
-    "lastsale": "$1.73",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "7",
-    "marketCap": "522123821.00",
-    "country": "Luxembourg",
-    "ipoyear": "",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/alvow"
   },
   {
     "symbol": "nasdaq:ALXO",
@@ -3066,20 +2982,6 @@
     "url": "/market-activity/stocks/anna"
   },
   {
-    "symbol": "nasdaq:ANNAW",
-    "name": "AleAnna Inc. Warrant",
-    "lastsale": "$0.1987",
-    "netchange": "-0.0043",
-    "pctchange": "-2.118%",
-    "volume": "37303",
-    "marketCap": "13244206.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Oil & Gas Production",
-    "sector": "Energy",
-    "url": "/market-activity/stocks/annaw"
-  },
-  {
     "symbol": "nasdaq:ANNX",
     "name": "Annexon Inc. Common Stock",
     "lastsale": "$2.89",
@@ -3106,20 +3008,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/ansc"
-  },
-  {
-    "symbol": "nasdaq:ANSCW",
-    "name": "Agriculture & Natural Solutions Acquisition Corporation Warrant",
-    "lastsale": "$0.1548",
-    "netchange": "0.0048",
-    "pctchange": "3.20%",
-    "volume": "200",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/anscw"
   },
   {
     "symbol": "nasdaq:ANSS",
@@ -4144,20 +4032,6 @@
     "url": "/market-activity/stocks/aspcr"
   },
   {
-    "symbol": "nasdaq:ASPCU",
-    "name": "A SPAC III Acquisition Corp. Unit",
-    "lastsale": "$10.22",
-    "netchange": "-0.14",
-    "pctchange": "-1.351%",
-    "volume": "1200",
-    "marketCap": "0.00",
-    "country": "China",
-    "ipoyear": "2024",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/aspcu"
-  },
-  {
     "symbol": "nasdaq:ASPI",
     "name": "ASP Isotopes Inc. Common Stock",
     "lastsale": "$6.98",
@@ -4408,20 +4282,6 @@
     "industry": "Hotels/Resorts",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/atat"
-  },
-  {
-    "symbol": "nasdaq:ATCOL",
-    "name": "Atlas Corp. 7.125% Notes due 2027",
-    "lastsale": "$25.323",
-    "netchange": "0.0064",
-    "pctchange": "0.025%",
-    "volume": "5361",
-    "marketCap": "5174204958.00",
-    "country": "United Kingdom",
-    "ipoyear": "",
-    "industry": "Marine Transportation",
-    "sector": "Consumer Discretionary",
-    "url": "/market-activity/stocks/atcol"
   },
   {
     "symbol": "nasdaq:ATEC",
@@ -5432,20 +5292,6 @@
     "url": "/market-activity/stocks/bacqr"
   },
   {
-    "symbol": "nasdaq:BACQU",
-    "name": "Bleichroeder Acquisition Corp. I Unit",
-    "lastsale": "$10.72",
-    "netchange": "0.10",
-    "pctchange": "0.942%",
-    "volume": "578",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/bacqu"
-  },
-  {
     "symbol": "nasdaq:BAER",
     "name": "Bridger Aerospace Group Holdings Inc. Common Stock",
     "lastsale": "$1.95",
@@ -6188,20 +6034,6 @@
     "url": "/market-activity/stocks/betr"
   },
   {
-    "symbol": "nasdaq:BETRW",
-    "name": "Better Home & Finance Holding Company Warrant",
-    "lastsale": "$0.14",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "1669",
-    "marketCap": "2128628.00",
-    "country": "United Kingdom",
-    "ipoyear": "2021",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/betrw"
-  },
-  {
     "symbol": "nasdaq:BFC",
     "name": "Bank First Corporation Common Stock",
     "lastsale": "$123.79",
@@ -6510,20 +6342,6 @@
     "url": "/market-activity/stocks/biaf"
   },
   {
-    "symbol": "nasdaq:BIAFW",
-    "name": "bioAffinity Technologies Inc. Warrant",
-    "lastsale": "$0.125",
-    "netchange": "-0.0142",
-    "pctchange": "-10.201%",
-    "volume": "593",
-    "marketCap": "3406183.00",
-    "country": "United States",
-    "ipoyear": "2022",
-    "industry": "Biotechnology: Commercial Physical & Biological Resarch",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/biafw"
-  },
-  {
     "symbol": "nasdaq:BIDU",
     "name": "Baidu Inc. ADS",
     "lastsale": "$86.35",
@@ -6704,20 +6522,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/bkha"
-  },
-  {
-    "symbol": "nasdaq:BKHAR",
-    "name": "Black Hawk Acquisition Corporation Rights",
-    "lastsale": "$1.45",
-    "netchange": "0.0624",
-    "pctchange": "4.497%",
-    "volume": "500",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/bkhar"
   },
   {
     "symbol": "nasdaq:BKNG",
@@ -7630,20 +7434,6 @@
     "url": "/market-activity/stocks/brls"
   },
   {
-    "symbol": "nasdaq:BRLSW",
-    "name": "Borealis Foods Inc. Warrant",
-    "lastsale": "$0.1075",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "34",
-    "marketCap": "2298549.00",
-    "country": "Canada",
-    "ipoyear": "2021",
-    "industry": "Packaged Foods",
-    "sector": "Consumer Staples",
-    "url": "/market-activity/stocks/brlsw"
-  },
-  {
     "symbol": "nasdaq:BRLT",
     "name": "Brilliant Earth Group Inc. Class A Common Stock",
     "lastsale": "$1.43",
@@ -7866,20 +7656,6 @@
     "industry": "Restaurants",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/btbd"
-  },
-  {
-    "symbol": "nasdaq:BTBDW",
-    "name": "BT Brands Inc. Warrant",
-    "lastsale": "$0.0448",
-    "netchange": "0.0095",
-    "pctchange": "26.912%",
-    "volume": "1000",
-    "marketCap": "275732.00",
-    "country": "United States",
-    "ipoyear": "2021",
-    "industry": "Restaurants",
-    "sector": "Consumer Discretionary",
-    "url": "/market-activity/stocks/btbdw"
   },
   {
     "symbol": "nasdaq:BTBT",
@@ -8330,20 +8106,6 @@
     "url": "/market-activity/stocks/bzfd"
   },
   {
-    "symbol": "nasdaq:BZFDW",
-    "name": "BuzzFeed Inc. Warrant",
-    "lastsale": "$0.0692",
-    "netchange": "-0.0057",
-    "pctchange": "-7.61%",
-    "volume": "100",
-    "marketCap": "2665941.00",
-    "country": "United States",
-    "ipoyear": "2021",
-    "industry": "Telecommunications Equipment",
-    "sector": "Consumer Discretionary",
-    "url": "/market-activity/stocks/bzfdw"
-  },
-  {
     "symbol": "nasdaq:BZUN",
     "name": "Baozun Inc. American Depositary Shares",
     "lastsale": "$2.61",
@@ -8552,20 +8314,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/capn"
-  },
-  {
-    "symbol": "nasdaq:CAPNR",
-    "name": "Cayson Acquisition Corp Right",
-    "lastsale": "$0.16",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "225186",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/capnr"
   },
   {
     "symbol": "nasdaq:CAPR",
@@ -9086,20 +8834,6 @@
     "url": "/market-activity/stocks/ccg"
   },
   {
-    "symbol": "nasdaq:CCGWW",
-    "name": "Cheche Group Inc. Warrant",
-    "lastsale": "$0.0255",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "114",
-    "marketCap": "2132861.00",
-    "country": "China",
-    "ipoyear": "",
-    "industry": "Specialty Insurers",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/ccgww"
-  },
-  {
     "symbol": "nasdaq:CCIIU",
     "name": "Cohen Circle Acquisition Corp. II Unit",
     "lastsale": "$10.19",
@@ -9310,20 +9044,6 @@
     "url": "/market-activity/stocks/cdio"
   },
   {
-    "symbol": "nasdaq:CDIOW",
-    "name": "Cardio Diagnostics Holdings Inc. Warrant",
-    "lastsale": "$0.0162",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "11358",
-    "marketCap": "28167.00",
-    "country": "United States",
-    "ipoyear": "2022",
-    "industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/cdiow"
-  },
-  {
     "symbol": "nasdaq:CDLX",
     "name": "Cardlytics Inc. Common Stock",
     "lastsale": "$1.86",
@@ -9378,20 +9098,6 @@
     "industry": "Services-Misc. Amusement & Recreation",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/cdro"
-  },
-  {
-    "symbol": "nasdaq:CDROW",
-    "name": "Codere Online Luxembourg S.A. Warrants",
-    "lastsale": "$1.02",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "4263",
-    "marketCap": "46553630.00",
-    "country": "Luxembourg",
-    "ipoyear": "",
-    "industry": "Services-Misc. Amusement & Recreation",
-    "sector": "Consumer Discretionary",
-    "url": "/market-activity/stocks/cdrow"
   },
   {
     "symbol": "nasdaq:CDT",
@@ -10162,20 +9868,6 @@
     "industry": "Blank Checks",
     "sector": "Finance",
     "url": "/market-activity/stocks/chacr"
-  },
-  {
-    "symbol": "nasdaq:CHACU",
-    "name": "Crane Harbor Acquisition Corp. Units",
-    "lastsale": "$10.30",
-    "netchange": "-0.18",
-    "pctchange": "-1.718%",
-    "volume": "723",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/chacu"
   },
   {
     "symbol": "nasdaq:CHAR",
@@ -11382,20 +11074,6 @@
     "url": "/market-activity/stocks/cnfr"
   },
   {
-    "symbol": "nasdaq:CNFRZ",
-    "name": "Conifer Holdings Inc. 9.75% Senior Unsecured Notes due 2028",
-    "lastsale": "$19.95",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "104",
-    "marketCap": "243846476.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Property-Casualty Insurers",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/cnfrz"
-  },
-  {
     "symbol": "nasdaq:CNOB",
     "name": "ConnectOne Bancorp Inc. Common Stock",
     "lastsale": "$25.01",
@@ -12150,20 +11828,6 @@
     "industry": "Blank Checks",
     "sector": "Finance",
     "url": "/market-activity/stocks/craqr"
-  },
-  {
-    "symbol": "nasdaq:CRAQU",
-    "name": "Cal Redwood Acquisition Corp. Units",
-    "lastsale": "$10.22",
-    "netchange": "-0.02",
-    "pctchange": "-0.195%",
-    "volume": "497",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/craqu"
   },
   {
     "symbol": "nasdaq:CRBP",
@@ -13046,20 +12710,6 @@
     "industry": "Industrial Machinery/Components",
     "sector": "Industrials",
     "url": "/market-activity/stocks/cub"
-  },
-  {
-    "symbol": "nasdaq:CUBA",
-    "name": "Herzfeld Caribbean Basin Fund Inc. (The) Common Stock",
-    "lastsale": "$2.52",
-    "netchange": "-0.02",
-    "pctchange": "-0.787%",
-    "volume": "35220",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Investment Managers",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/cuba"
   },
   {
     "symbol": "nasdaq:CUBWU",
@@ -14406,20 +14056,6 @@
     "url": "/market-activity/stocks/dmaa"
   },
   {
-    "symbol": "nasdaq:DMAAR",
-    "name": "Drugs Made In America Acquisition Corp. Rights",
-    "lastsale": "$0.1286",
-    "netchange": "0.0084",
-    "pctchange": "6.988%",
-    "volume": "773",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/dmaar"
-  },
-  {
     "symbol": "nasdaq:DMAAU",
     "name": "Drugs Made In America Acquisition Corp. Units",
     "lastsale": "$10.32",
@@ -14686,34 +14322,6 @@
     "url": "/market-activity/stocks/drdb"
   },
   {
-    "symbol": "nasdaq:DRDBU",
-    "name": "Roman DBDR Acquisition Corp. II Unit",
-    "lastsale": "$10.57",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "85",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/drdbu"
-  },
-  {
-    "symbol": "nasdaq:DRDBW",
-    "name": "Roman DBDR Acquisition Corp. II Warrants",
-    "lastsale": "$0.525",
-    "netchange": "0.025",
-    "pctchange": "5.00%",
-    "volume": "1100",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/drdbw"
-  },
-  {
     "symbol": "nasdaq:DRIO",
     "name": "DarioHealth Corp. Common Stock",
     "lastsale": "$0.7048",
@@ -14740,20 +14348,6 @@
     "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/drma"
-  },
-  {
-    "symbol": "nasdaq:DRMAW",
-    "name": "Dermata Therapeutics Inc. Warrant",
-    "lastsale": "$0.0179",
-    "netchange": "0.0001",
-    "pctchange": "0.562%",
-    "volume": "102",
-    "marketCap": "114168.00",
-    "country": "United States",
-    "ipoyear": "2021",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/drmaw"
   },
   {
     "symbol": "nasdaq:DRRX",
@@ -14796,20 +14390,6 @@
     "industry": "Medical/Dental Instruments",
     "sector": "Health Care",
     "url": "/market-activity/stocks/drts"
-  },
-  {
-    "symbol": "nasdaq:DRTSW",
-    "name": "Alpha Tau Medical Ltd. Warrant",
-    "lastsale": "$0.2426",
-    "netchange": "-0.0041",
-    "pctchange": "-1.662%",
-    "volume": "18227",
-    "marketCap": "17074326.00",
-    "country": "Israel",
-    "ipoyear": "",
-    "industry": "Medical/Dental Instruments",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/drtsw"
   },
   {
     "symbol": "nasdaq:DRUG",
@@ -15260,20 +14840,6 @@
     "url": "/market-activity/stocks/dynx"
   },
   {
-    "symbol": "nasdaq:DYNXW",
-    "name": "Dynamix Corporation Warrant",
-    "lastsale": "$0.3401",
-    "netchange": "-0.02",
-    "pctchange": "-5.554%",
-    "volume": "1179",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/dynxw"
-  },
-  {
     "symbol": "nasdaq:EA",
     "name": "Electronic Arts Inc. Common Stock",
     "lastsale": "$155.37",
@@ -15370,20 +14936,6 @@
     "industry": "Auto Manufacturing",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/ecda"
-  },
-  {
-    "symbol": "nasdaq:ECDAW",
-    "name": "ECD Automotive Design Inc. Warrant ",
-    "lastsale": "$0.02",
-    "netchange": "0.003",
-    "pctchange": "17.647%",
-    "volume": "10191",
-    "marketCap": "707713.00",
-    "country": "United States",
-    "ipoyear": "2022",
-    "industry": "Auto Manufacturing",
-    "sector": "Consumer Discretionary",
-    "url": "/market-activity/stocks/ecdaw"
   },
   {
     "symbol": "nasdaq:ECOR",
@@ -16030,20 +15582,6 @@
     "url": "/market-activity/stocks/emcg"
   },
   {
-    "symbol": "nasdaq:EMCGR",
-    "name": "Embrace Change Acquisition Corp Rights",
-    "lastsale": "$0.1142",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "100",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2022",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/emcgr"
-  },
-  {
     "symbol": "nasdaq:EMCGW",
     "name": "Embrace Change Acquisition Corp Warrants",
     "lastsale": "$0.034",
@@ -16098,20 +15636,6 @@
     "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/engn"
-  },
-  {
-    "symbol": "nasdaq:ENGNW",
-    "name": "enGene Holdings Inc. Warrants",
-    "lastsale": "$0.951",
-    "netchange": "0.1869",
-    "pctchange": "24.46%",
-    "volume": "8219",
-    "marketCap": "48601046.00",
-    "country": "Canada",
-    "ipoyear": "",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/engnw"
   },
   {
     "symbol": "nasdaq:ENGS",
@@ -17094,20 +16618,6 @@
     "url": "/market-activity/stocks/exeel"
   },
   {
-    "symbol": "nasdaq:EXEEZ",
-    "name": "Expand Energy Corporation Class B Warrants",
-    "lastsale": "$104.69",
-    "netchange": "-2.55",
-    "pctchange": "-2.378%",
-    "volume": "301",
-    "marketCap": "24914067469.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Oil & Gas Production",
-    "sector": "Energy",
-    "url": "/market-activity/stocks/exeez"
-  },
-  {
     "symbol": "nasdaq:EXEL",
     "name": "Exelixis Inc. Common Stock",
     "lastsale": "$46.15",
@@ -17316,48 +16826,6 @@
     "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/faasw"
-  },
-  {
-    "symbol": "nasdaq:FACT",
-    "name": "FACT II Acquisition Corp. Class A Ordinary Shares",
-    "lastsale": "$10.2933",
-    "netchange": "-0.0067",
-    "pctchange": "-0.065%",
-    "volume": "1474",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/fact"
-  },
-  {
-    "symbol": "nasdaq:FACTU",
-    "name": "FACT II Acquisition Corp. Unit",
-    "lastsale": "$10.30",
-    "netchange": "0.05",
-    "pctchange": "0.488%",
-    "volume": "102",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/factu"
-  },
-  {
-    "symbol": "nasdaq:FACTW",
-    "name": "FACT II Acquisition Corp. Warrant",
-    "lastsale": "$0.2936",
-    "netchange": "-0.0064",
-    "pctchange": "-2.133%",
-    "volume": "1100",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/factw"
   },
   {
     "symbol": "nasdaq:FAMI",
@@ -18816,20 +18284,6 @@
     "url": "/market-activity/stocks/forl"
   },
   {
-    "symbol": "nasdaq:FORLW",
-    "name": "Four Leaf Acquisition Corporation Warrants",
-    "lastsale": "$0.04",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "770",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2023",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/forlw"
-  },
-  {
     "symbol": "nasdaq:FORM",
     "name": "FormFactor Inc. FormFactor Inc. Common Stock",
     "lastsale": "$36.18",
@@ -19066,20 +18520,6 @@
     "industry": "Major Banks",
     "sector": "Finance",
     "url": "/market-activity/stocks/frme"
-  },
-  {
-    "symbol": "nasdaq:FRMEP",
-    "name": "First Merchants Corporation Depository Shares",
-    "lastsale": "$25.3208",
-    "netchange": "-0.1792",
-    "pctchange": "-0.703%",
-    "volume": "1000",
-    "marketCap": "1476379556.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Major Banks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/frmep"
   },
   {
     "symbol": "nasdaq:FROG",
@@ -20552,20 +19992,6 @@
     "url": "/market-activity/stocks/gift"
   },
   {
-    "symbol": "nasdaq:GIG",
-    "name": "GigCapital7 Corp. Class A Ordinary Share",
-    "lastsale": "$10.40",
-    "netchange": "-0.02",
-    "pctchange": "-0.192%",
-    "volume": "110",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/gig"
-  },
-  {
     "symbol": "nasdaq:GIGGW",
     "name": "GigCapital7 Corp. Warrant",
     "lastsale": "$0.1556",
@@ -21224,20 +20650,6 @@
     "url": "/market-activity/stocks/govx"
   },
   {
-    "symbol": "nasdaq:GOVXW",
-    "name": "GeoVax Labs Inc. Warrants",
-    "lastsale": "$0.0297",
-    "netchange": "0.0047",
-    "pctchange": "18.80%",
-    "volume": "3665",
-    "marketCap": "451250.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/govxw"
-  },
-  {
     "symbol": "nasdaq:GP",
     "name": "GreenPower Motor Company Inc. Common Shares",
     "lastsale": "$0.4095",
@@ -21602,20 +21014,6 @@
     "url": "/market-activity/stocks/gshd"
   },
   {
-    "symbol": "nasdaq:GSHR",
-    "name": "Gesher Acquisition Corp. II Class A Ordinary Shares",
-    "lastsale": "$10.12",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "73",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/gshr"
-  },
-  {
     "symbol": "nasdaq:GSHRU",
     "name": "Gesher Acquisition Corp. II Units",
     "lastsale": "$10.24",
@@ -21628,20 +21026,6 @@
     "industry": "Blank Checks",
     "sector": "Finance",
     "url": "/market-activity/stocks/gshru"
-  },
-  {
-    "symbol": "nasdaq:GSHRW",
-    "name": "Gesher Acquisition Corp. II Warrants",
-    "lastsale": "$0.33",
-    "netchange": "0.0282",
-    "pctchange": "9.344%",
-    "volume": "859",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/gshrw"
   },
   {
     "symbol": "nasdaq:GSIT",
@@ -21992,20 +21376,6 @@
     "industry": "Biotechnology: Pharmaceutical Preparations",
     "sector": "Health Care",
     "url": "/market-activity/stocks/gyre"
-  },
-  {
-    "symbol": "nasdaq:GYRO",
-    "name": "Gyrodyne LLC Common Stock",
-    "lastsale": "$8.6071",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "2",
-    "marketCap": "18929664.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Building operators",
-    "sector": "Real Estate",
-    "url": "/market-activity/stocks/gyro"
   },
   {
     "symbol": "nasdaq:HAFC",
@@ -22820,20 +22190,6 @@
     "url": "/market-activity/stocks/hond"
   },
   {
-    "symbol": "nasdaq:HONDU",
-    "name": "HCM II Acquisition Corp. Unit",
-    "lastsale": "$12.55",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "50",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/hondu"
-  },
-  {
     "symbol": "nasdaq:HONDW",
     "name": "HCM II Acquisition Corp. Warrant",
     "lastsale": "$2.40",
@@ -23000,20 +22356,6 @@
     "industry": "Computer Software: Prepackaged Software",
     "sector": "Technology",
     "url": "/market-activity/stocks/hpai"
-  },
-  {
-    "symbol": "nasdaq:HPAIW",
-    "name": "Helport AI Limited Warrants",
-    "lastsale": "$0.215",
-    "netchange": "-0.0023",
-    "pctchange": "-1.058%",
-    "volume": "1230",
-    "marketCap": "7983588.00",
-    "country": "Singapore",
-    "ipoyear": "",
-    "industry": "Computer Software: Prepackaged Software",
-    "sector": "Technology",
-    "url": "/market-activity/stocks/hpaiw"
   },
   {
     "symbol": "nasdaq:HPK",
@@ -23184,20 +22526,6 @@
     "url": "/market-activity/stocks/hscs"
   },
   {
-    "symbol": "nasdaq:HSCSW",
-    "name": "HeartSciences Inc. Warrant",
-    "lastsale": "$0.0914",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "1",
-    "marketCap": "98798.00",
-    "country": "United States",
-    "ipoyear": "2022",
-    "industry": "Industrial Specialties",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/hscsw"
-  },
-  {
     "symbol": "nasdaq:HSDT",
     "name": "Helius Medical Technologies Inc. Class A Common Stock (DE)",
     "lastsale": "$9.40",
@@ -23268,20 +22596,6 @@
     "url": "/market-activity/stocks/hspo"
   },
   {
-    "symbol": "nasdaq:HSPOR",
-    "name": "Horizon Space Acquisition I Corp. Right",
-    "lastsale": "$0.2348",
-    "netchange": "0.0349",
-    "pctchange": "17.459%",
-    "volume": "512",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2023",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/hspor"
-  },
-  {
     "symbol": "nasdaq:HSPOW",
     "name": "Horizon Space Acquisition I Corp. Warrant",
     "lastsale": "$0.0501",
@@ -23294,34 +22608,6 @@
     "industry": "Blank Checks",
     "sector": "Finance",
     "url": "/market-activity/stocks/hspow"
-  },
-  {
-    "symbol": "nasdaq:HSPT",
-    "name": "Horizon Space Acquisition II Corp. Ordinary share",
-    "lastsale": "$10.22",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "104",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/hspt"
-  },
-  {
-    "symbol": "nasdaq:HSPTU",
-    "name": "Horizon Space Acquisition II Corp. Units",
-    "lastsale": "$10.32",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "1",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/hsptu"
   },
   {
     "symbol": "nasdaq:HST",
@@ -23865,8 +23151,8 @@
     "marketCap": "41397123.00",
     "country": "United States",
     "ipoyear": "2018",
-    "industry": "",
-    "sector": "",
+    "industry": "Biotechnology: Pharmaceutical Preparations",
+    "sector": "Health Care",
     "url": "/market-activity/stocks/hypd"
   },
   {
@@ -25606,20 +24892,6 @@
     "url": "/market-activity/stocks/ipod"
   },
   {
-    "symbol": "nasdaq:IPODU",
-    "name": "Dune Acquisition Corporation II Units",
-    "lastsale": "$10.15",
-    "netchange": "-0.02",
-    "pctchange": "-0.197%",
-    "volume": "2582",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/ipodu"
-  },
-  {
     "symbol": "nasdaq:IPODW",
     "name": "Dune Acquisition Corporation II Warrants",
     "lastsale": "$0.19",
@@ -26726,20 +25998,6 @@
     "url": "/market-activity/stocks/jspr"
   },
   {
-    "symbol": "nasdaq:JSPRW",
-    "name": "Japer Therapeutics Inc. Warrants",
-    "lastsale": "$0.1124",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "350",
-    "marketCap": "1688487.00",
-    "country": "United States",
-    "ipoyear": "2020",
-    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/jsprw"
-  },
-  {
     "symbol": "nasdaq:JTAI",
     "name": "Jet.AI Inc. Common Stock",
     "lastsale": "$3.49",
@@ -27074,20 +26332,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/kfii"
-  },
-  {
-    "symbol": "nasdaq:KFIIU",
-    "name": "K&F Growth Acquisition Corp. II Unit",
-    "lastsale": "$10.30",
-    "netchange": "-0.01",
-    "pctchange": "-0.097%",
-    "volume": "105",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/kfiiu"
   },
   {
     "symbol": "nasdaq:KG",
@@ -27678,20 +26922,6 @@
     "url": "/market-activity/stocks/ktta"
   },
   {
-    "symbol": "nasdaq:KTTAW",
-    "name": "Pasithea Therapeutics Corp. Warrant",
-    "lastsale": "$0.0152",
-    "netchange": "-0.0004",
-    "pctchange": "-2.564%",
-    "volume": "7200",
-    "marketCap": "113142.00",
-    "country": "United States",
-    "ipoyear": "2021",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/kttaw"
-  },
-  {
     "symbol": "nasdaq:KURA",
     "name": "Kura Oncology Inc. Common Stock",
     "lastsale": "$5.86",
@@ -28138,20 +27368,6 @@
     "industry": "Blank Checks",
     "sector": "Finance",
     "url": "/market-activity/stocks/lccc"
-  },
-  {
-    "symbol": "nasdaq:LCCCU",
-    "name": "Lakeshore Acquisition III Corp. Unit",
-    "lastsale": "$10.25",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "637",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/lcccu"
   },
   {
     "symbol": "nasdaq:LCFY",
@@ -30282,20 +29498,6 @@
     "url": "/market-activity/stocks/maxn"
   },
   {
-    "symbol": "nasdaq:MAYA",
-    "name": "Maywood Acquisition Corp. Class A Ordinary Shares",
-    "lastsale": "$10.11",
-    "netchange": "0.02",
-    "pctchange": "0.198%",
-    "volume": "1595",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/maya"
-  },
-  {
     "symbol": "nasdaq:MAYAR",
     "name": "Maywood Acquisition Corp. Right",
     "lastsale": "$0.2674",
@@ -30308,20 +29510,6 @@
     "industry": "Blank Checks",
     "sector": "Finance",
     "url": "/market-activity/stocks/mayar"
-  },
-  {
-    "symbol": "nasdaq:MAYAU",
-    "name": "Maywood Acquisition Corp. Unit",
-    "lastsale": "$10.50",
-    "netchange": "0.05",
-    "pctchange": "0.478%",
-    "volume": "700",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/mayau"
   },
   {
     "symbol": "nasdaq:MAYS",
@@ -30532,20 +29720,6 @@
     "industry": "Commercial Banks",
     "sector": "Finance",
     "url": "/market-activity/stocks/mbnko"
-  },
-  {
-    "symbol": "nasdaq:MBNKP",
-    "name": "Medallion Bank Fixed-to-Floating Rate Non-Cumulative Perpetual Preferred Stock Series F",
-    "lastsale": "$25.4296",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "2",
-    "marketCap": "25429600.00",
-    "country": "United States",
-    "ipoyear": "2019",
-    "industry": "Commercial Banks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/mbnkp"
   },
   {
     "symbol": "nasdaq:MBOT",
@@ -31528,20 +30702,6 @@
     "url": "/market-activity/stocks/mkdw"
   },
   {
-    "symbol": "nasdaq:MKDWW",
-    "name": "MKDWELL Tech Inc. Warrants",
-    "lastsale": "$0.011",
-    "netchange": "-0.0008",
-    "pctchange": "-6.78%",
-    "volume": "12250",
-    "marketCap": "1579813.00",
-    "country": "Taiwan",
-    "ipoyear": "",
-    "industry": "Consumer Electronics/Appliances",
-    "sector": "Technology",
-    "url": "/market-activity/stocks/mkdww"
-  },
-  {
     "symbol": "nasdaq:MKSI",
     "name": "MKS Inc. Common Stock",
     "lastsale": "$104.56",
@@ -31610,20 +30770,6 @@
     "industry": "Industrial Machinery/Components",
     "sector": "Industrials",
     "url": "/market-activity/stocks/mlab"
-  },
-  {
-    "symbol": "nasdaq:MLAC",
-    "name": "Mountain Lake Acquisition Corp. Class A Ordinary Shares",
-    "lastsale": "$10.22",
-    "netchange": "-0.04",
-    "pctchange": "-0.39%",
-    "volume": "524",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Auto Manufacturing",
-    "sector": "Consumer Discretionary",
-    "url": "/market-activity/stocks/mlac"
   },
   {
     "symbol": "nasdaq:MLCO",
@@ -32340,20 +31486,6 @@
     "url": "/market-activity/stocks/mrno"
   },
   {
-    "symbol": "nasdaq:MRNOW",
-    "name": "Murano Global Investments PLC Warrants",
-    "lastsale": "$0.195",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "33",
-    "marketCap": "15464619.00",
-    "country": "Mexico",
-    "ipoyear": "",
-    "industry": "Hotels/Resorts",
-    "sector": "Consumer Discretionary",
-    "url": "/market-activity/stocks/mrnow"
-  },
-  {
     "symbol": "nasdaq:MRSN",
     "name": "Mersana Therapeutics Inc. Common Stock",
     "lastsale": "$0.2895",
@@ -32450,20 +31582,6 @@
     "industry": "Electronic Components",
     "sector": "Technology",
     "url": "/market-activity/stocks/msai"
-  },
-  {
-    "symbol": "nasdaq:MSAIW",
-    "name": "MultiSensor AI Holdings Inc. Warrant",
-    "lastsale": "$0.032",
-    "netchange": "-0.0063",
-    "pctchange": "-16.449%",
-    "volume": "353",
-    "marketCap": "1069960.00",
-    "country": "United States",
-    "ipoyear": "2021",
-    "industry": "Electronic Components",
-    "sector": "Technology",
-    "url": "/market-activity/stocks/msaiw"
   },
   {
     "symbol": "nasdaq:MSBI",
@@ -33922,20 +33040,6 @@
     "url": "/market-activity/stocks/nhic"
   },
   {
-    "symbol": "nasdaq:NHICW",
-    "name": "NewHold Investment Corp III Warrants",
-    "lastsale": "$0.3492",
-    "netchange": "0.0233",
-    "pctchange": "7.149%",
-    "volume": "500",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/nhicw"
-  },
-  {
     "symbol": "nasdaq:NHPAP",
     "name": "National Healthcare Properties Inc. 7.375% Series A Cumulative Redeemable Perpetual Preferred Stock",
     "lastsale": "$15.20",
@@ -34412,34 +33516,6 @@
     "url": "/market-activity/stocks/noem"
   },
   {
-    "symbol": "nasdaq:NOEMR",
-    "name": "CO2 Energy Transition Corp. Right",
-    "lastsale": "$0.1552",
-    "netchange": "-0.0198",
-    "pctchange": "-11.314%",
-    "volume": "117",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/noemr"
-  },
-  {
-    "symbol": "nasdaq:NOEMU",
-    "name": "CO2 Energy Transition Corp. Unit",
-    "lastsale": "$10.53",
-    "netchange": "0.13",
-    "pctchange": "1.25%",
-    "volume": "400",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/noemu"
-  },
-  {
     "symbol": "nasdaq:NOEMW",
     "name": "CO2 Energy Transition Corp. Warrant",
     "lastsale": "$0.1098",
@@ -34494,20 +33570,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/npac"
-  },
-  {
-    "symbol": "nasdaq:NPACU",
-    "name": "New Providence Acquisition Corp. III Units",
-    "lastsale": "$10.40",
-    "netchange": "-0.01",
-    "pctchange": "-0.096%",
-    "volume": "39239",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/npacu"
   },
   {
     "symbol": "nasdaq:NPACW",
@@ -34944,48 +34006,6 @@
     "url": "/market-activity/stocks/ntwk"
   },
   {
-    "symbol": "nasdaq:NTWO",
-    "name": "Newbury Street II Acquisition Corp Class A Ordinary Shares",
-    "lastsale": "$10.29",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "40196",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ntwo"
-  },
-  {
-    "symbol": "nasdaq:NTWOU",
-    "name": "Newbury Street II Acquisition Corp Unit",
-    "lastsale": "$10.40",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "1",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ntwou"
-  },
-  {
-    "symbol": "nasdaq:NTWOW",
-    "name": "Newbury Street II Acquisition Corp Warrant",
-    "lastsale": "$0.2313",
-    "netchange": "-0.0347",
-    "pctchange": "-13.045%",
-    "volume": "400",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ntwow"
-  },
-  {
     "symbol": "nasdaq:NUKK",
     "name": "Nukkleus Inc. Common Stock",
     "lastsale": "$10.915",
@@ -35210,20 +34230,6 @@
     "url": "/market-activity/stocks/nvni"
   },
   {
-    "symbol": "nasdaq:NVNIW",
-    "name": "Nvni Group Limited Warrants",
-    "lastsale": "$0.0523",
-    "netchange": "0.0008",
-    "pctchange": "1.553%",
-    "volume": "250",
-    "marketCap": "4825198.00",
-    "country": "Cayman Islands",
-    "ipoyear": "",
-    "industry": "Computer Software: Prepackaged Software",
-    "sector": "Technology",
-    "url": "/market-activity/stocks/nvniw"
-  },
-  {
     "symbol": "nasdaq:NVNO",
     "name": "enVVeno Medical Corporation Common Stock",
     "lastsale": "$3.99",
@@ -35432,20 +34438,6 @@
     "industry": "Auto Manufacturing",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/nwtn"
-  },
-  {
-    "symbol": "nasdaq:NWTNW",
-    "name": "NWTN Inc. Warrant",
-    "lastsale": "$0.0496",
-    "netchange": "0.0083",
-    "pctchange": "20.097%",
-    "volume": "13713",
-    "marketCap": "14493105.00",
-    "country": "United Arab Emirates",
-    "ipoyear": "",
-    "industry": "Auto Manufacturing",
-    "sector": "Consumer Discretionary",
-    "url": "/market-activity/stocks/nwtnw"
   },
   {
     "symbol": "nasdaq:NXGL",
@@ -35796,20 +34788,6 @@
     "industry": "Blank Checks",
     "sector": "Finance",
     "url": "/market-activity/stocks/oaccu"
-  },
-  {
-    "symbol": "nasdaq:OACCW",
-    "name": "Oaktree Acquisition Corp. III Life Sciences Warrant",
-    "lastsale": "$0.875",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "9",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/oaccw"
   },
   {
     "symbol": "nasdaq:OAKU",
@@ -37324,20 +36302,6 @@
     "url": "/market-activity/stocks/oxbr"
   },
   {
-    "symbol": "nasdaq:OXBRW",
-    "name": "Oxbridge Re Holdings Limited Warrant expiring 3/26/2029",
-    "lastsale": "$0.34",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "150",
-    "marketCap": "2530593.00",
-    "country": "Cayman Islands",
-    "ipoyear": "2014",
-    "industry": "Property-Casualty Insurers",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/oxbrw"
-  },
-  {
     "symbol": "nasdaq:OXLC",
     "name": "Oxford Lane Capital Corp. Common Stock",
     "lastsale": "$4.21",
@@ -38304,20 +37268,6 @@
     "url": "/market-activity/stocks/pelir"
   },
   {
-    "symbol": "nasdaq:PELIU",
-    "name": "Pelican Acquisition Corporation Unit",
-    "lastsale": "$10.23",
-    "netchange": "0.07",
-    "pctchange": "0.689%",
-    "volume": "243",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/peliu"
-  },
-  {
     "symbol": "nasdaq:PENG",
     "name": "Penguin Solutions Inc. Common Stock",
     "lastsale": "$20.87",
@@ -38892,20 +37842,6 @@
     "url": "/market-activity/stocks/pll"
   },
   {
-    "symbol": "nasdaq:PLMK",
-    "name": "Plum Acquisition Corp. IV Class A Ordinary Shares",
-    "lastsale": "$10.25",
-    "netchange": "-0.02",
-    "pctchange": "-0.195%",
-    "volume": "4952",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/plmk"
-  },
-  {
     "symbol": "nasdaq:PLMR",
     "name": "Palomar Holdings Inc. Common stock",
     "lastsale": "$147.62",
@@ -39366,20 +38302,6 @@
     "industry": "Industrial Machinery/Components",
     "sector": "Miscellaneous",
     "url": "/market-activity/stocks/pola"
-  },
-  {
-    "symbol": "nasdaq:POLE",
-    "name": "Andretti Acquisition Corp. II Class A Ordinary Shares",
-    "lastsale": "$10.37",
-    "netchange": "-0.01",
-    "pctchange": "-0.096%",
-    "volume": "14078",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/pole"
   },
   {
     "symbol": "nasdaq:POLEW",
@@ -40488,34 +39410,6 @@
     "url": "/market-activity/stocks/qdel"
   },
   {
-    "symbol": "nasdaq:QETA",
-    "name": "Quetta Acquisition Corporation Common Stock",
-    "lastsale": "$10.93",
-    "netchange": "0.07",
-    "pctchange": "0.645%",
-    "volume": "300",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2023",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/qeta"
-  },
-  {
-    "symbol": "nasdaq:QETAR",
-    "name": "Quetta Acquisition Corporation Right",
-    "lastsale": "$1.22",
-    "netchange": "0.05",
-    "pctchange": "4.274%",
-    "volume": "30198",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2023",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/qetar"
-  },
-  {
     "symbol": "nasdaq:QFIN",
     "name": "Qifu Technology Inc. American Depositary Shares",
     "lastsale": "$43.11",
@@ -40978,34 +39872,6 @@
     "url": "/market-activity/stocks/rand"
   },
   {
-    "symbol": "nasdaq:RANG",
-    "name": "Range Capital Acquisition Corp. Ordinary Shares",
-    "lastsale": "$10.22",
-    "netchange": "-0.02",
-    "pctchange": "-0.195%",
-    "volume": "382447",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/rang"
-  },
-  {
-    "symbol": "nasdaq:RANGR",
-    "name": "Range Capital Acquisition Corp. Rights",
-    "lastsale": "$0.255",
-    "netchange": "0.005",
-    "pctchange": "2.00%",
-    "volume": "75411",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/rangr"
-  },
-  {
     "symbol": "nasdaq:RANI",
     "name": "Rani Therapeutics Holdings Inc. Class A Common Stock",
     "lastsale": "$0.5354",
@@ -41326,20 +40192,6 @@
     "industry": "Blank Checks",
     "sector": "Finance",
     "url": "/market-activity/stocks/rdagu"
-  },
-  {
-    "symbol": "nasdaq:RDAGW",
-    "name": "Republic Digital Acquisition Company Warrants",
-    "lastsale": "$0.73",
-    "netchange": "-0.01",
-    "pctchange": "-1.351%",
-    "volume": "30175",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/rdagw"
   },
   {
     "symbol": "nasdaq:RDCM",
@@ -42026,20 +40878,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/ribbr"
-  },
-  {
-    "symbol": "nasdaq:RIBBU",
-    "name": "Ribbon Acquisition Corp Unit",
-    "lastsale": "$10.35",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "8",
-    "marketCap": "0.00",
-    "country": "Japan",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ribbu"
   },
   {
     "symbol": "nasdaq:RICK",
@@ -44632,20 +43470,6 @@
     "url": "/market-activity/stocks/shmd"
   },
   {
-    "symbol": "nasdaq:SHMDW",
-    "name": "SCHMID Group N.V. Warrants",
-    "lastsale": "$0.30",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "2050",
-    "marketCap": "12892459.00",
-    "country": "Cayman Islands",
-    "ipoyear": "",
-    "industry": "Industrial Machinery/Components",
-    "sector": "Technology",
-    "url": "/market-activity/stocks/shmdw"
-  },
-  {
     "symbol": "nasdaq:SHOO",
     "name": "Steven Madden Ltd. Common Stock",
     "lastsale": "$25.98",
@@ -44840,20 +43664,6 @@
     "industry": "Apparel",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/silo"
-  },
-  {
-    "symbol": "nasdaq:SIMA",
-    "name": "SIM Acquisition Corp. I Class A Ordinary Shares",
-    "lastsale": "$10.42",
-    "netchange": "-0.02",
-    "pctchange": "-0.192%",
-    "volume": "20230",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "Industrial Machinery/Components",
-    "sector": "Miscellaneous",
-    "url": "/market-activity/stocks/sima"
   },
   {
     "symbol": "nasdaq:SIMAW",
@@ -45540,20 +44350,6 @@
     "industry": "Engineering & Construction",
     "sector": "Consumer Discretionary",
     "url": "/market-activity/stocks/smxt"
-  },
-  {
-    "symbol": "nasdaq:SMXWW",
-    "name": "SMX (Security Matters) Public Limited Company Warrant",
-    "lastsale": "$0.0175",
-    "netchange": "0.0025",
-    "pctchange": "16.667%",
-    "volume": "12746",
-    "marketCap": "18213.00",
-    "country": "Ireland",
-    "ipoyear": "",
-    "industry": "Industrial Machinery/Components",
-    "sector": "Technology",
-    "url": "/market-activity/stocks/smxww"
   },
   {
     "symbol": "nasdaq:SNAL",
@@ -46662,20 +45458,6 @@
     "url": "/market-activity/stocks/ssss"
   },
   {
-    "symbol": "nasdaq:SSSSL",
-    "name": "SuRo Capital Corp. 6.00% Notes due 2026",
-    "lastsale": "$24.6122",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "90",
-    "marketCap": "579663064.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/ssssl"
-  },
-  {
     "symbol": "nasdaq:SSTI",
     "name": "SoundThinking Inc. Common Stock",
     "lastsale": "$13.925",
@@ -47278,20 +46060,6 @@
     "url": "/market-activity/stocks/svc"
   },
   {
-    "symbol": "nasdaq:SVCC",
-    "name": "Stellar V Capital Corp. Class A Ordinary Shares",
-    "lastsale": "$10.22",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "2",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/svcc"
-  },
-  {
     "symbol": "nasdaq:SVCCW",
     "name": "Stellar V Capital Corp. Warrant",
     "lastsale": "$0.32",
@@ -47558,20 +46326,6 @@
     "url": "/market-activity/stocks/sxtp"
   },
   {
-    "symbol": "nasdaq:SXTPW",
-    "name": "60 Degrees Pharmaceuticals Inc. Warrant",
-    "lastsale": "$0.0564",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "10",
-    "marketCap": "83071.00",
-    "country": "United States",
-    "ipoyear": "2023",
-    "industry": "Biotechnology: Pharmaceutical Preparations",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/sxtpw"
-  },
-  {
     "symbol": "nasdaq:SY",
     "name": "So-Young International Inc. American Depository Shares",
     "lastsale": "$3.25",
@@ -47710,20 +46464,6 @@
     "industry": "Blank Checks",
     "sector": "Finance",
     "url": "/market-activity/stocks/szzl"
-  },
-  {
-    "symbol": "nasdaq:SZZLR",
-    "name": "Sizzle Acquisition Corp. II Right",
-    "lastsale": "$0.20",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "200",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/szzlr"
   },
   {
     "symbol": "nasdaq:SZZLU",
@@ -48312,20 +47052,6 @@
     "industry": "EDP Services",
     "sector": "Technology",
     "url": "/market-activity/stocks/tcx"
-  },
-  {
-    "symbol": "nasdaq:TDAC",
-    "name": "Translational Development Acquisition Corp. Ordinary Shares",
-    "lastsale": "$10.28",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "5",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/tdac"
   },
   {
     "symbol": "nasdaq:TDACW",
@@ -49124,20 +47850,6 @@
     "industry": "Medical/Dental Instruments",
     "sector": "Health Care",
     "url": "/market-activity/stocks/tnon"
-  },
-  {
-    "symbol": "nasdaq:TNONW",
-    "name": "Tenon Medical Inc. Warrant",
-    "lastsale": "$0.0184",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "999",
-    "marketCap": "139655.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Medical/Dental Instruments",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/tnonw"
   },
   {
     "symbol": "nasdaq:TNXP",
@@ -51184,20 +49896,6 @@
     "url": "/market-activity/stocks/uysc"
   },
   {
-    "symbol": "nasdaq:UYSCR",
-    "name": "UY Scuti Acquisition Corp. Rights",
-    "lastsale": "$0.20",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "116922",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2025",
-    "industry": "Blank Checks",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/uyscr"
-  },
-  {
     "symbol": "nasdaq:VABK",
     "name": "Virginia National Bankshares Corporation Common Stock",
     "lastsale": "$38.51",
@@ -51282,20 +49980,6 @@
     "url": "/market-activity/stocks/vape"
   },
   {
-    "symbol": "nasdaq:VAPEW",
-    "name": "CEA Industries Inc. Warrant",
-    "lastsale": "$0.0228",
-    "netchange": "-0.0032",
-    "pctchange": "-12.308%",
-    "volume": "3435",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/vapew"
-  },
-  {
     "symbol": "nasdaq:VBIX",
     "name": "Viewbix Inc. Common Stock",
     "lastsale": "$4.2911",
@@ -51364,20 +50048,6 @@
     "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
     "sector": "Health Care",
     "url": "/market-activity/stocks/vcel"
-  },
-  {
-    "symbol": "nasdaq:VCIC",
-    "name": "Vine Hill Capital Investment Corp. Class A Ordinary Shares",
-    "lastsale": "$10.39",
-    "netchange": "-0.01",
-    "pctchange": "-0.096%",
-    "volume": "5504",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/vcic"
   },
   {
     "symbol": "nasdaq:VCICU",
@@ -53102,20 +51772,6 @@
     "url": "/market-activity/stocks/whlrd"
   },
   {
-    "symbol": "nasdaq:WHLRL",
-    "name": "Wheeler Real Estate Investment Trust Inc. 7.00% Senior Subordinated Convertible Notes Due 2031",
-    "lastsale": "$151.50",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "1",
-    "marketCap": "66465474.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Real Estate Investment Trusts",
-    "sector": "Real Estate",
-    "url": "/market-activity/stocks/whlrl"
-  },
-  {
     "symbol": "nasdaq:WHLRP",
     "name": "Wheeler Real Estate Investment Trust Inc. Class B Preferred Stock",
     "lastsale": "$3.92",
@@ -53282,20 +51938,6 @@
     "industry": "",
     "sector": "",
     "url": "/market-activity/stocks/wlac"
-  },
-  {
-    "symbol": "nasdaq:WLACW",
-    "name": "Willow Lane Acquisition Corp. Warrants",
-    "lastsale": "$0.36",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "3848",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/wlacw"
   },
   {
     "symbol": "nasdaq:WLDN",
@@ -53676,20 +52318,6 @@
     "url": "/market-activity/stocks/wtfcp"
   },
   {
-    "symbol": "nasdaq:WTGUU",
-    "name": "Wintergreen Acquisition Corp. Unit",
-    "lastsale": "$10.08",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "217206",
-    "marketCap": "0.00",
-    "country": "China",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/wtguu"
-  },
-  {
     "symbol": "nasdaq:WTO",
     "name": "UTime Limited Ordinary Shares",
     "lastsale": "$0.9754",
@@ -53842,20 +52470,6 @@
     "industry": "Medical/Dental Instruments",
     "sector": "Health Care",
     "url": "/market-activity/stocks/xage"
-  },
-  {
-    "symbol": "nasdaq:XAGEW",
-    "name": "Longevity Health Holdings Inc. Warrant",
-    "lastsale": "$0.0316",
-    "netchange": "0.0012",
-    "pctchange": "3.947%",
-    "volume": "14493",
-    "marketCap": "31726.00",
-    "country": "United States",
-    "ipoyear": "2021",
-    "industry": "Medical/Dental Instruments",
-    "sector": "Health Care",
-    "url": "/market-activity/stocks/xagew"
   },
   {
     "symbol": "nasdaq:XAIR",
@@ -54416,20 +53030,6 @@
     "industry": "Specialty Chemicals",
     "sector": "Industrials",
     "url": "/market-activity/stocks/yhgj"
-  },
-  {
-    "symbol": "nasdaq:YHNA",
-    "name": "YHN Acquisition I Limited Ordinary Shares",
-    "lastsale": "$10.336",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "3",
-    "marketCap": "0.00",
-    "country": "Hong Kong",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/yhna"
   },
   {
     "symbol": "nasdaq:YHNAR",
@@ -63742,20 +62342,6 @@
     "url": "/market-activity/stocks/cop"
   },
   {
-    "symbol": "nyse:COPL",
-    "name": "Copley Acquisition Corp Ordinary Shares",
-    "lastsale": "$10.05",
-    "netchange": "-0.02",
-    "pctchange": "-0.199%",
-    "volume": "102",
-    "marketCap": "0.00",
-    "country": "",
-    "ipoyear": "2025",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/copl"
-  },
-  {
     "symbol": "nyse:COR",
     "name": "Cencora Inc. Common Stock",
     "lastsale": "$296.23",
@@ -70210,20 +68796,6 @@
     "url": "/market-activity/stocks/ggt"
   },
   {
-    "symbol": "nyse:GGT^E",
-    "name": "Gabelli Multi-Media Trust Inc. (The) 5.125% Series E Cumulative Preferred Stock",
-    "lastsale": "$22.28",
-    "netchange": "0.02",
-    "pctchange": "0.09%",
-    "volume": "1127",
-    "marketCap": "0",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/ggt^e"
-  },
-  {
     "symbol": "nyse:GGT^G",
     "name": "Gabelli Multi-Media Trust Inc. (The) 5.125% Series G Cumulative Preferred Shares",
     "lastsale": "$22.69",
@@ -70390,48 +68962,6 @@
     "industry": "Packaged Foods",
     "sector": "Consumer Staples",
     "url": "/market-activity/stocks/gis"
-  },
-  {
-    "symbol": "nyse:GJH",
-    "name": "Synthetic Fixed-Income Securities Inc 6.375% (STRATS) Cl A-1",
-    "lastsale": "$9.34",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "333",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/gjh"
-  },
-  {
-    "symbol": "nyse:GJO",
-    "name": "Synthetic Fixed-Income Securities Inc. on behalf of STRATS(SM) Trust for Wal-Mart Stores Inc. Securities Series 2004-5",
-    "lastsale": "$24.93",
-    "netchange": "0.1791",
-    "pctchange": "0.724%",
-    "volume": "100",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/gjo"
-  },
-  {
-    "symbol": "nyse:GJP",
-    "name": "Synthetic Fixed-Income Securities Inc. on behalf of STRATS (SM) Trust for Dominion Resources Inc. Securities Series 2005-6 Floating Rate Structured Repackaged Asset-Backed Trust Securities (STRATS) Certificates",
-    "lastsale": "$24.83",
-    "netchange": "0.28",
-    "pctchange": "1.141%",
-    "volume": "138",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/gjp"
   },
   {
     "symbol": "nyse:GJS",
@@ -83608,20 +82138,6 @@
     "url": "/market-activity/stocks/pyn"
   },
   {
-    "symbol": "nyse:PYT",
-    "name": "PPlus Tr GSC-2 Tr Ctf Fltg Rate",
-    "lastsale": "$22.9645",
-    "netchange": "0.3645",
-    "pctchange": "1.613%",
-    "volume": "100",
-    "marketCap": "0.00",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "Finance: Consumer Services",
-    "sector": "Finance",
-    "url": "/market-activity/stocks/pyt"
-  },
-  {
     "symbol": "nyse:PZC",
     "name": "PIMCO California Municipal Income Fund III Common Shares of Beneficial Interest",
     "lastsale": "$6.27",
@@ -87760,7 +86276,7 @@
     "volume": "497761",
     "marketCap": "71617455.00",
     "country": "United States",
-    "ipoyear": "2020",
+    "ipoyear": "1992",
     "industry": "Industrial Machinery/Components",
     "sector": "Miscellaneous",
     "url": "/market-activity/stocks/stem"
@@ -95452,20 +93968,6 @@
     "url": "/market-activity/stocks/lctx"
   },
   {
-    "symbol": "amex:LEGT",
-    "name": "Legato Merger Corp. III Ordinary Shares",
-    "lastsale": "$10.67",
-    "netchange": "-0.05",
-    "pctchange": "-0.466%",
-    "volume": "20355",
-    "marketCap": "0.00",
-    "country": "",
-    "ipoyear": "2024",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/legt"
-  },
-  {
     "symbol": "amex:LEU",
     "name": "Centrus Energy Corp. Class A Common Stock",
     "lastsale": "$175.65",
@@ -96124,20 +94626,6 @@
     "url": "/market-activity/stocks/ophc"
   },
   {
-    "symbol": "amex:OPP^C",
-    "name": "RiverNorth/DoubleLine Strategic Opportunity Fund Inc. 6.00% Series C Term Preferred Stock (Liquidation Preference $10.00 per share)",
-    "lastsale": "$10.12",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "107",
-    "marketCap": "0",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/opp^c"
-  },
-  {
     "symbol": "amex:OPTT",
     "name": "Ocean Power Technologies Inc. Common Stock",
     "lastsale": "$0.5075",
@@ -96430,20 +94918,6 @@
     "industry": "Real Estate Investment Trusts",
     "sector": "Real Estate",
     "url": "/market-activity/stocks/pw"
-  },
-  {
-    "symbol": "amex:PW^A",
-    "name": "Power REIT 7.75% Series A Cumulative Perpetual Preferred Stock",
-    "lastsale": "$4.15",
-    "netchange": "0.00",
-    "pctchange": "0.00%",
-    "volume": "2",
-    "marketCap": "0",
-    "country": "United States",
-    "ipoyear": "",
-    "industry": "",
-    "sector": "",
-    "url": "/market-activity/stocks/pw^a"
   },
   {
     "symbol": "amex:PZG",
