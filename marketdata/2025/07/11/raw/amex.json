@@ -435,7 +435,7 @@
   },
   {
     "symbol": "amex:BQ",
-    "name": "Boqii Holding Limited American Depositary Shares (each representing one hundred fifty (150) Class A Ordinary Shares)",
+    "name": "Boqii Holding Limited Class A Ordinary Shares",
     "lastsale": "$2.45",
     "netchange": "0.28",
     "pctchange": "12.903%",
@@ -2764,7 +2764,7 @@
     "netchange": "0.0327",
     "pctchange": "6.013%",
     "volume": "21550769",
-    "marketCap": "51179494.00",
+    "marketCap": "98034150.00",
     "country": "United States",
     "ipoyear": "2007",
     "industry": "Electric Utilities: Central",
