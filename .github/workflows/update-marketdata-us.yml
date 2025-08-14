@@ -110,11 +110,9 @@ jobs:
           echo "Request failed with response code: ${response_code}"
           exit 1
         fi
-        if [ "$(jq '.data.data.rows | length' us-etf.json)" -eq "0" ]; then
-          echo "Empty datafile"
-          exit 1
+        if [ "$(jq '.data.data.rows | length' us-etf.json)" -ne "0" ]; then
+          mv us-etf.json "$GITHUB_WORKSPACE/marketdata/$(TZ="US/Eastern" date +"%Y/%m/%d")/raw/"
         fi
-        mv us-etf.json "$GITHUB_WORKSPACE/marketdata/$(TZ="US/Eastern" date +"%Y/%m/%d")/raw/"
 
     - name: Generate datafiles
       run: |
