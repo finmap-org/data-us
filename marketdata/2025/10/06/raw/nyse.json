@@ -15476,7 +15476,7 @@
     "netchange": "-1.84",
     "pctchange": "-6.76%",
     "volume": "11615905",
-    "marketCap": "11361775364.00",
+    "marketCap": "12497951647.00",
     "country": "United States",
     "ipoyear": "2002",
     "industry": "Electronics Distribution",
@@ -24492,7 +24492,7 @@
     "netchange": "1.95",
     "pctchange": "6.854%",
     "volume": "1682639",
-    "marketCap": "0.00",
+    "marketCap": "4196264000.00",
     "country": "",
     "ipoyear": "2025",
     "industry": "Specialty Insurers",
@@ -33108,6 +33108,20 @@
     "industry": "Oil & Gas Production",
     "sector": "Energy",
     "url": "/market-activity/stocks/tbn"
+  },
+  {
+    "symbol": "nyse:TCBX",
+    "name": "Third Coast Bancshares Inc. Common Stock",
+    "lastsale": "$37.42",
+    "netchange": "0.62",
+    "pctchange": "1.685%",
+    "volume": "64107",
+    "marketCap": "518685094.00",
+    "country": "United States",
+    "ipoyear": "",
+    "industry": "",
+    "sector": "",
+    "url": "/market-activity/stocks/tcbx"
   },
   {
     "symbol": "nyse:TCI",
